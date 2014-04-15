@@ -15,19 +15,17 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 3.2.8"
+  s.add_dependency "rails"
   s.add_dependency "monologue"
-  s.add_dependency "deface", "~> 1.0.0.rc3"
-  s.add_dependency "github-markdown", "~> 0.6.3"
-  s.add_dependency 'content-pipeline', "~> 1.0"
+  s.add_dependency "deface", "~> 1.0.0"
+  s.add_dependency "github-markdown", "~> 0.6.5"
   s.add_dependency "pygments.rb", "~> 0.5.4"
   s.add_dependency "jquery-rails"
 
-  s.add_development_dependency "rspec-rails", "~> 2.11"
-  s.add_development_dependency 'factory_girl_rails', '~> 4.1.0'
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency 'factory_girl_rails'
   s.add_development_dependency "capybara"
   s.add_development_dependency "shoulda"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "database_cleaner"
-  s.add_development_dependency "mysql2"
 end
