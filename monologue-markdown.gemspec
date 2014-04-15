@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails"
   s.add_dependency "monologue"
-  s.add_dependency "deface", "~> 1.0.0"
+  s.add_dependency "deface", "~> 1.0.0.rc1"
   s.add_dependency "github-markdown", "~> 0.6.5"
   s.add_dependency "pygments.rb", "~> 0.5.4"
   s.add_dependency "jquery-rails"
